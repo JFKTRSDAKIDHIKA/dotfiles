@@ -79,7 +79,6 @@ inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
-
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'

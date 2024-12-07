@@ -21,3 +21,8 @@ fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 HISTIGNORE="$HISTIGNORE:jrnl *"
+
+# set alias
+alias my_server="ssh root@123.57.225.36"
+
+
