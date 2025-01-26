@@ -4,7 +4,7 @@ if [ -f ~/.env ]; then
 fi
 
 # Bash Prompt
-PS1="\[\e]0;\u@Cal: \W\a\]\[\033[01;31m\]\u@Cal\[\033[00m\]:\[\033[00;36m\]\W\[\033[00m\]\$ "
+PS1="\[\e]0;\u@Cal:\W\a\]\[\033[01;31m\]\u@Cal\[\033[00m\]:\[\033[00;36m\]\W\[\033[00m\]\$ "
 PS1="\[\033[36m\][\[\033[m\]\[\033[34m\]\u@Cal\[\033[m\] \[\033[32m\]\W\[\033[m\]\[\033[36m\]]\[\033[m\] $ "
 
 
@@ -25,4 +25,4 @@ HISTIGNORE="$HISTIGNORE:jrnl *"
 # set alias
 alias my_server="ssh root@123.57.225.36"
 
-
+export AM_HOME=/root/ysyx-workbench/abstract-machine
